@@ -13,3 +13,6 @@ patches:
       - op: replace
         path: /spec/template/spec/containers/0/env/1/value
         value: "openshift-pipelines"
+images:
+  - name: quay.io/konflux-ci/appstudio-utils
+    digest: sha256:909bce0cb502caa2ff5704cfce7eb4435ec75769e6f88d2dc3ffcda8c14f4209
